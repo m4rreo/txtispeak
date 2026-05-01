@@ -27,7 +27,6 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 15px;
     border: 1.5px solid #333;
-    padding: 10px;
 }
 
 .card-wrapper {
@@ -81,16 +80,12 @@ body {
 .h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
-}
-
-.title1 {
-    margin: 0 0 10px 0;
+    margin: 10px;
 }
 
 p {
     font-size: 15px;
-    margin: auto;
-    padding: auto;
+    margin: 10px;
 }
 
 li::marker {
@@ -110,9 +105,10 @@ li::marker {
     border: 1.5px solid #333;
     max-height: 400px;
     height: 340px;
+    color: #333;
 }
 
+
 .title2 {
-    flex-shrink: 0;
-    margin: 10px;
+    color: #333;
 }
