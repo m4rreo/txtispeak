@@ -113,7 +113,6 @@ li::marker {
 }
 
 .title2 {
-    padding: auto;
     flex-shrink: 0;
     margin: 10px;
 }
