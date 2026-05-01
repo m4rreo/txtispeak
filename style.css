@@ -17,16 +17,16 @@ body {
 .h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
-    color: #333;
+    color: #000000;
     margin: 0;
 }
 
 .nav {
-    color: #333;
+    color: #000000;
     background: #ff31be75;
     backdrop-filter: blur(10px);
     border-radius: 15px;
-    border: 1.5px solid #333;
+    border: 1.5px solid #000000;
 }
 
 .card-wrapper {
@@ -44,8 +44,8 @@ body {
 }
 
 .card1 {
-    background: #33333375;
-    border: 1.5px solid #333;
+    background: #00000033375;
+    border: 1.5px solid #000000;
     color: #ffffff;
 }
 
@@ -68,7 +68,7 @@ body {
     border-radius: 14px;
     flex: 1;
     min-height: 0;
-    border-bottom: 1.5px solid #333;
+    border-bottom: 1.5px solid #000000;
 }
 
 .card-content {
@@ -90,25 +90,25 @@ p {
 
 li::marker {
     content: "— ";
-    color: #333;
+    color: #000000;
 }
 
 .card2 {
     background-color: #ffffff75;
-    border: 1.5px dashed #333;
-    color: #333;
+    border: 1.5px dashed #000000;
+    color: #000000;
 }
 
 .card3 {
     background-color: #ff31be75;
     flex-direction: column;
-    border: 1.5px solid #333;
+    border: 1.5px solid #000000;
     max-height: 400px;
     height: 340px;
-    color: #333;
+    color: #000000;
 }
 
 
 .title2 {
-    color: #333;
+    color: #000000;
 }
