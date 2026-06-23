@@ -123,3 +123,12 @@ p {
   paint-order: stroke fill;
   text-decoration: none;
 }
+
+.footer {
+  margin: 20px;
+  margin-top: 0;
+  color: #fff;
+  justify-self: center;
+  font-size: 1vh;
+}
+
