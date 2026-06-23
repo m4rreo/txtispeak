@@ -64,3 +64,10 @@ p {
   margin: 20px;
 }
 
+.footer {
+  margin: 20px;
+  margin-top: 0;
+  color: #212124;
+  justify-self: center;
+  font-size: 1vh;
+}
