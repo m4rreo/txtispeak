@@ -93,11 +93,6 @@ p {
   width: 100%;
 }
 
-.twitter-tweet {
-  display: flex;
-  margin: 20px;
-}
-
 .ytplayer {
   margin: 20px;
   border: #fff solid 2px;
