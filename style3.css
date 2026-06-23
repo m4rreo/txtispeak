@@ -1,0 +1,66 @@
+body {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.card {
+  margin: 20px;
+  background-color: #212124;
+  border: #fe1f96 solid 3.5px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  transition: ease 1s all;
+  align-items: flex-start;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 30px #ffffff);
+}
+
+.img {
+  margin: 20px;
+  object-fit: cover;
+  max-height: 300px;
+  max-width: 300px;
+  border: #fe1f96 solid 2px;
+}
+
+.h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fe1f96;
+  font-size: 10vh;
+  -webkit-text-stroke: 2.5px #fff;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: auto;
+}
+
+p {
+  margin-top: 0;
+  margin-left: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 4vh;
+  color: #fff;
+}
+
+.h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fe1f96;
+  font-size: 10vh;
+  -webkit-text-stroke: 2.5px #fff;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.twitter-tweet {
+  display: flex;
+  margin: 20px;
+}
+

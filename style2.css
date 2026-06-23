@@ -1,0 +1,131 @@
+body {
+  margin-top: 20px;
+  background-color: #212124;
+}
+
+.card {
+  margin: 20px;
+  background-color: #fe1f96;
+  border: #fff solid 2px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  transition: ease 1s all;
+  align-items: flex-start;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 30px #ffffff);
+}
+
+.img {
+  margin: 20px;
+  object-fit: cover;
+  max-height: 300px;
+  max-width: 300px;
+  border: #ffffff solid 2px;
+}
+
+.bigimg {
+  margin: 20px;
+  width: 900px;
+  height: 400px;
+  border: #ffffff solid 2px;
+}
+
+.h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #212124;
+  font-size: 10vh;
+  -webkit-text-stroke: 4px #fff;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: auto;
+}
+
+p {
+  margin-top: 0;
+  margin-left: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5vh;
+  color: #fff;
+}
+
+.h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #212124;
+  font-size: 10vh;
+  -webkit-text-stroke: 4px #fff;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.player {
+  margin: 20px;
+  margin-top: 20px;
+  transition: ease 0.3s all;
+  flex: 1 1 10%;
+}
+
+.player:hover {
+  scale: 1.01;
+  filter: drop-shadow(0 0 15px #212124);
+}
+
+.songs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.playercontainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.twitter-tweet {
+  display: flex;
+  margin: 20px;
+}
+
+.ytplayer {
+  margin: 20px;
+  border: #fff solid 2px;
+}
+
+.button {
+  margin: 20px;
+  padding: 20px;
+  margin-top: 0;
+  background-color: #fe1f96;
+  border: #fff solid 2px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: row;
+  transition: ease 1s all;
+}
+
+.button:hover {
+  scale: 1.02;
+  filter: drop-shadow(0 0 30px #ffffff);
+  transition: ease 1.5s all;
+}
+
+.a {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #212124;
+  font-size: 10vh;
+  -webkit-text-stroke: 4px #fff;
+  paint-order: stroke fill;
+  text-decoration: none;
+}

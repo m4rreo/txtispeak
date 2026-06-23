@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: #fe1f96;
+}
+
+.h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fff;
+  font-size: 15vh;
+  -webkit-text-stroke: 4px #212124;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  transition: ease 0.4s all;
+}
+
+.h1:hover {
+  filter: drop-shadow(0 0 10px #212124);
+  color: #212124;
+  -webkit-text-stroke: 4px #fff
+}
+
+.card {
+  margin: 20px;
+  margin-top: 0;
+  background-color: #fff;
+  border: #212124 solid 2px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: row;
+  transition: ease 1s all;
+}
+
+.card:hover {
+  scale: 1.02;
+  filter: drop-shadow(0 0 10px #212124);
+}
+
+.img {
+  margin: 20px;
+  object-fit: cover;
+  max-height: 200px;
+  max-width: 200px;
+  border: #212124 solid 2px;
+}
+
+.h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fe1f96;
+  font-size: 10vh;
+  -webkit-text-stroke: 4px #212124;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fe1f96;
+  font-size: 10vh;
+  -webkit-text-stroke: 4px #212124;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: auto;
+}
+
+p {
+  margin-top: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5vh;
+}
+
+.bigimg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 320px;
+}
+
+.button {
+  margin: 20px;
+  padding: 20px;
+  margin-top: 0;
+  background-color: #fff;
+  border: #212124 solid 2px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: row;
+  transition: ease 1s all;
+}
+
+.button:hover {
+  scale: 1.02;
+  filter: drop-shadow(0 0 30px #ffffff);
+  transition: ease 1.5s all;
+}
+
+.a {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fe1f96;
+  font-size: 10vh;
+  -webkit-text-stroke: 4px #212124;
+  paint-order: stroke fill;
+  text-decoration: none;
+}
+
+.player {
+  margin: 20px;
+}
+
+
