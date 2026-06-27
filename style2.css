@@ -95,6 +95,12 @@ p {
 .ytplayer {
   margin: 20px;
   border: #fff solid 2px;
+  transition: ease 0.3s all;
+}
+
+.ytplayer:hover {
+  scale: 1.01;
+  filter: drop-shadow(0 0 15px #212124);
 }
 
 .button {
