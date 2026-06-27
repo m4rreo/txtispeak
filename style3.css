@@ -14,7 +14,7 @@ body {
 }
 
 .card:hover {
-  filter: drop-shadow(0 0 30px #ffffff);
+  filter: drop-shadow(0 0 30px #212124);
 }
 
 .img {
