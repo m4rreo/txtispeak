@@ -64,6 +64,33 @@ p {
   margin: 20px;
 }
 
+.button {
+  margin: 20px;
+  padding: 20px;
+  margin-top: 0;
+  background-color: #212124;
+  border: #fe1f96 solid 2px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: row;
+  transition: ease 1s all;
+}
+
+.button:hover {
+  scale: 1.02;
+  filter: drop-shadow(0 0 30px #212124);
+  transition: ease 1.5s all;
+}
+
+.a {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fe1f96;
+  font-size: 10vh;
+  -webkit-text-stroke: 4px #fff;
+  paint-order: stroke fill;
+  text-decoration: none;
+}
+
 .footer {
   margin: 20px;
   margin-top: 0;
