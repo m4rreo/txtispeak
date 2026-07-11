@@ -19,9 +19,9 @@ body {
 
 .h1 {
   font-family: 'Bebas Neue', sans-serif;
-  color: #fff;
+  color: #fe1f96;
   font-size: 15vh;
-  -webkit-text-stroke: 4px #fe1f96;
+  -webkit-text-stroke: 4px #fff;
   paint-order: stroke fill;
   display: flex;
   justify-content: flex-start;
@@ -32,9 +32,9 @@ body {
 }
 
 .h1:hover {
-  filter: drop-shadow(0 0 10px #212124);
-  color: #212124;
-  -webkit-text-stroke: 4px #fff
+  filter: drop-shadow(0 0 10px #fff);
+  color: #fff;
+  -webkit-text-stroke: 4px #fe1f96
 }
 
 .img {
