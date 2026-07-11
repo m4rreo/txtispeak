@@ -17,6 +17,26 @@ body {
   filter: drop-shadow(0 0 30px #ffffff);
 }
 
+.h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fff;
+  font-size: 15vh;
+  -webkit-text-stroke: 4px #fe1f96;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  transition: ease 0.4s all;
+}
+
+.h1:hover {
+  filter: drop-shadow(0 0 10px #212124);
+  color: #212124;
+  -webkit-text-stroke: 4px #fff
+}
+
 .img {
   margin: 20px;
   object-fit: cover;
@@ -137,4 +157,3 @@ p {
   justify-self: center;
   font-size: 1vh;
 }
-
