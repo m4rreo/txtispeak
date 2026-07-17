@@ -98,7 +98,6 @@ p {
 }
 
 .button:hover {
-  scale: 1.02;
   filter: drop-shadow(0 0 30px #ffffff);
   transition: ease 1.5s all;
   margin-bottom: 0;
