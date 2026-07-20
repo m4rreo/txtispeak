@@ -99,8 +99,7 @@ p {
 
 .button:hover {
   filter: drop-shadow(0 0 30px #ffffff);
-  transition: ease 1.5s all;
-  margin-bottom: 0;
+  transition: ease 1.5s all; 
 }
 
 .a {
@@ -114,12 +113,29 @@ p {
 
 .player {
   margin: 20px;
+  margin-top: 20px;
   transition: ease 0.3s all;
+  flex: 1 1 10%;
 }
 
 .player:hover {
   scale: 1.01;
-  filter: drop-shadow(0 0 5px #212124);
+  filter: drop-shadow(0 0 10px #212124);
+}
+
+.playercontainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.songs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .twitter-tweet {
