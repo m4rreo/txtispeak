@@ -114,6 +114,12 @@ p {
 
 .player {
   margin: 20px;
+  transition: ease 0.3s all;
+}
+
+.player:hover {
+  scale: 1.01;
+  filter: drop-shadow(0 0 5px #212124);
 }
 
 .twitter-tweet {
