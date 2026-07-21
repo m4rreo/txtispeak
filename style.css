@@ -147,7 +147,7 @@ p {
   font-family: 'Bebas Neue', sans-serif;
   color: #fe1f96;
   font-size: 20vh;
-  -webkit-text-stroke: 4px #212124;
+  -webkit-text-stroke: 5px #212124;
   paint-order: stroke fill;
   display: flex;
   justify-content: flex-start;
@@ -158,9 +158,9 @@ p {
 }
 
 .container {
-  justify-items: center;
+  display: flex;
   align-items: center;
-  flex: content;
+  flex-direction: column;
 }
 
 .wiki {
