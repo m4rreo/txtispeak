@@ -143,6 +143,31 @@ p {
   margin: 20px;
 }
 
+.h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fe1f96;
+  font-size: 20vh;
+  -webkit-text-stroke: 4px #212124;
+  paint-order: stroke fill;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  transition: ease 0.4s all;
+}
+
+.container {
+  justify-items: center;
+  align-items: center;
+  flex: content;
+}
+
+.wiki {
+  width: 100%;
+  height: 400px;
+}
+
 .footer {
   margin: 20px;
   margin-top: 0;
