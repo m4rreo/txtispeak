@@ -9,12 +9,12 @@ body {
   border: #fff solid 2px;
   font-family: 'Nunito', sans-serif;
   display: flex;
-  transition: ease 1s all;
+  transition: ease 0.3s all;
   align-items: flex-start;
 }
 
 .card:hover {
-  filter: drop-shadow(0 0 30px #ffffff);
+  filter: drop-shadow(0 0 10px #ffffff);
 }
 
 .h1 {
@@ -28,11 +28,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20px;
-  transition: ease 0.4s all;
+  transition: ease 0.3s all;
 }
 
 .h1:hover {
-  filter: drop-shadow(0 0 10px #fff);
+  filter: drop-shadow(0 0 4px #fff);
   color: #fff;
   -webkit-text-stroke: 4px #fe1f96
 }
@@ -94,7 +94,7 @@ p {
 
 .player:hover {
   scale: 1.01;
-  filter: drop-shadow(0 0 10px #212124);
+  filter: drop-shadow(0 0 4px #212124);
 }
 
 .songs {
@@ -120,7 +120,7 @@ p {
 
 .ytplayer:hover {
   scale: 1.01;
-  filter: drop-shadow(0 0 15px #212124);
+  filter: drop-shadow(0 0 4px #212124);
 }
 
 .button {
@@ -132,12 +132,12 @@ p {
   font-family: 'Nunito', sans-serif;
   display: flex;
   flex-direction: row;
-  transition: ease 1s all;
+  transition: ease 0.3s all;
 }
 
 .button:hover {
-  scale: 1.02;
-  filter: drop-shadow(0 0 30px #ffffff);
+  scale: 1.01;
+  filter: drop-shadow(0 0 10px #ffffff);
   transition: ease 1.5s all;
 }
 

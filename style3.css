@@ -9,12 +9,12 @@ body {
   border: #fe1f96 solid 3.5px;
   font-family: 'Nunito', sans-serif;
   display: flex;
-  transition: ease 1s all;
+  transition: ease 0.3s all;
   align-items: flex-start;
 }
 
 .card:hover {
-  filter: drop-shadow(0 0 30px #212124);
+  filter: drop-shadow(0 0 10px #212124);
 } 
 
 .h1 {
@@ -28,11 +28,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20px;
-  transition: ease 0.4s all;
+  transition: ease 0.3s all;
 }
 
 .h1:hover {
-  filter: drop-shadow(0 0 10px #212124);
+  filter: drop-shadow(0 0 4px #212124);
   color: #fe1f96;
   -webkit-text-stroke: 4.5px #212124
 }
@@ -93,13 +93,24 @@ p {
   font-family: 'Nunito', sans-serif;
   display: flex;
   flex-direction: row;
-  transition: ease 1s all;
+  transition: ease 0.3s all;
 }
 
 .button:hover {
-  scale: 1.02;
-  filter: drop-shadow(0 0 30px #fe1f96);
+  scale: 1.01;
+  filter: drop-shadow(0 0 10px #fe1f96);
   transition: ease 1.5s all;
+}
+
+.player {
+  margin: 20px;
+  margin-top: 20px;
+  transition: ease 0.3s all;
+}
+
+.player:hover {
+  scale: 1.01;
+  filter: drop-shadow(0 0 4px #fe1f96);
 }
 
 

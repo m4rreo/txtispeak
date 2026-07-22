@@ -14,11 +14,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20px;
-  transition: ease 0.4s all;
+  transition: ease 0.3s all;
 }
 
 .h1:hover {
-  filter: drop-shadow(0 0 10px #212124);
+  filter: drop-shadow(0 0 4px #212124);
   color: #212124;
   -webkit-text-stroke: 4px #fff
 }
@@ -31,7 +31,7 @@ body {
   font-family: 'Nunito', sans-serif;
   display: flex;
   flex-direction: row;
-  transition: ease 1s all
+  transition: ease 0.3s all
 }
 
 .card:hover {
@@ -94,12 +94,12 @@ p {
   font-family: 'Nunito', sans-serif;
   display: flex;
   flex-direction: row;
-  transition: ease 1s all;
+  transition: ease 0.3s all;
 }
 
 .button:hover {
-  filter: drop-shadow(0 0 30px #ffffff);
-  transition: ease 1.5s all; 
+  filter: drop-shadow(0 0 10px #ffffff);
+  transition: ease 0.3s all; 
 }
 
 .a {
@@ -120,7 +120,7 @@ p {
 
 .player:hover {
   scale: 1.01;
-  filter: drop-shadow(0 0 10px #212124);
+  filter: drop-shadow(0 0 4px #212124);
 }
 
 .playercontainer {
