@@ -82,6 +82,8 @@ p {
 .twitter-tweet {
   display: flex;
   margin: 20px;
+  border: #fe1f96 solid 2px;
+  border-radius: 14px;
 }
 
 .button {
@@ -106,6 +108,8 @@ p {
   margin: 20px;
   margin-top: 20px;
   transition: ease 0.3s all;
+  border: #fe1f96 solid 2px;
+  border-radius: 14px;
 }
 
 .player:hover {
