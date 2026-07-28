@@ -41,8 +41,8 @@ body {
 .img {
   margin: 20px;
   object-fit: cover;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 250px;
+  max-width: 250px;
   border: #212124 solid 2px;
 }
 
